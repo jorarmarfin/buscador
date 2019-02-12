@@ -1,6 +1,7 @@
 <?php
+use Faker\Generator as Faker;
 
-$factory->define(AppArticle::class, function (FakerGenerator $faker) {
+$factory->define(App\Article::class, function (Faker $faker) {
     $tags = collect(['php', 'ruby', 'java', 'javascript', 'bash'])
         ->random(2)
         ->values()

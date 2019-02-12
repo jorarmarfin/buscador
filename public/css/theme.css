@@ -17550,7 +17550,7 @@ html.search-results body {
 
 /* Search Results List */
 .search-results-list {
-	max-width: 750px;
+	/* max-width: 750px; */
 }
 
 .search-results-list li {

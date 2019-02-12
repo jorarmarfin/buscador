@@ -357,7 +357,7 @@
 				</aside>
 				<!-- end: sidebar -->
 
-				<section role="main" class="content-body pb-0">
+				<section role="main" class="content-body">
 					<header class="page-header">
 						<h2>Layouts</h2>
 					
@@ -376,9 +376,7 @@
 					</header>
 
 					<!-- start: page -->
-					@yield('content')
-					
-					
+					@yield('content')			
 					<!-- end: page -->
 				</section>
 			</div>
